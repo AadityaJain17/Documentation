@@ -1,5 +1,5 @@
 import React from "react";
-// import { CodeBlock, dracula } from "react-code-blocks";
+
 import {
   Card,
   CardHeader,
@@ -9,15 +9,14 @@ import {
   Code,
   Image,
 } from "@nextui-org/react";
+
 import { CodeBlock } from "react-code-blocks";
 
-export default function Topic(props) {
-  const { img_src, title, desc, codesnippet } = props;
-
+export default function Topic({ img_src, title, desc, codesnippet }) {
   console.log(title);
   console.log(desc);
   return (
-    <Card className="max-w-[400px]">
+    <Card className="max-w-[400px] ">
       <CardHeader className="flex gap-3">
         <Image
           alt="language logo"
@@ -27,18 +26,18 @@ export default function Topic(props) {
           width={40}
         />
         <div className="flex flex-col">
-          <p className="text-md">{title}</p>
+          <p className="text-md font-semibold">{title}</p>
         </div>
       </CardHeader>
       <Divider />
-      <CardBody>
+      <CardBody className="font-extralight">
         <p>{desc}</p>
       </CardBody>
       <Divider />
       <CardFooter>
-        <Code>
-          <CodeBlock language="javascript" text={codesnippet} />
-        </Code>
+        {/* <Code> */}
+        <CodeBlock language="javascript" text={codesnippet} />
+        {/* </Code> */}
       </CardFooter>
     </Card>
   );
