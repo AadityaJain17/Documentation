@@ -1,3 +1,10 @@
+import Hovercard from "../ui/HoverCard";
+
 export const Home = () => {
-  return <>this is home</>;
+  return (
+    <>
+      <Hovercard />
+      <Hovercard />
+    </>
+  );
 };

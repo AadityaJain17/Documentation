@@ -90,18 +90,18 @@ export const Javascript = () => {
                     console.log(typeof text); // Output: string
                     console.log(typeof isTrue); // Output: boolean
                     console.log(typeof object); // Output: object"
-/>
+      />
 
-<Topic
+      <Topic
         img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
         title="JavaScript Variables"
         desc="A JavaScript variable is a container for storing data. In JavaScript, we use the var, let, or const keywords to declare variables."
         codesnippet="var age = 30;
                     let name = 'John';
                     const PI = 3.14;"
-/>
+      />
 
-<Topic
+      <Topic
         img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
         title="JavaScript Operators"
         desc="JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more."
@@ -112,9 +112,9 @@ export const Javascript = () => {
                     let product = a * b; // Multiplication
                     let quotient = a / b; // Division
                     let isEqual = (a == b); // Comparison"
-/>
+      />
 
-<Topic
+      <Topic
         img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
         title="JavaScript Numbers"
         desc="JavaScript has only one type of number. Numbers can be written with or without decimals."
@@ -125,9 +125,9 @@ export const Javascript = () => {
                     console.log(integer); // Output: 42
                     console.log(float); // Output: 3.14
                     console.log(scientific); // Output: 123000"
-/>
+      />
 
-<Topic
+      <Topic
         img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
         title="JavaScript Booleans"
         desc="Booleans can have two values: true or false. They are often used in conditional testing."
@@ -143,9 +143,9 @@ export const Javascript = () => {
                     console.log(isFalse); // Output: false
                     console.log(isEqual); // Output: false
                     console.log(isGreater); // Output: false"
-/>
+      />
 
-<Topic
+      <Topic
         img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
         title="JavaScript Arrays"
         desc="Arrays are used to store multiple values in a single variable. Arrays are a special type of objects, with numbered indexes."
@@ -154,9 +154,9 @@ export const Javascript = () => {
 
                     fruits.push('Orange'); // Add an item to the end
                     console.log(fruits); // Output: ['Apple', 'Banana', 'Cherry', 'Orange']"
-/>
+      />
 
-<Topic
+      <Topic
         img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
         title="JavaScript Objects"
         desc="Objects are variables too. But objects can contain many values. These values are written as name:value pairs (properties)."
@@ -169,9 +169,9 @@ export const Javascript = () => {
 
                     person.firstName = 'Jane'; // Modify a property
                     console.log(person.firstName); // Output: Jane"
-/>
+      />
 
-<Topic
+      <Topic
         img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
         title="JavaScript Functions"
         desc="Functions are used to define blocks of code that can be executed whenever they are called. Functions can take parameters and return a value."
@@ -181,9 +181,9 @@ export const Javascript = () => {
 
                     let greeting = greet('John');
                     console.log(greeting); // Output: Hello, John"
-/>
+      />
 
-<Topic
+      <Topic
         img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
         title="JavaScript Scope"
         desc="JavaScript has function scope: Each function creates a new scope. Variables defined inside a function are not accessible from outside the function."
@@ -196,8 +196,7 @@ export const Javascript = () => {
                         let blockScope = 'Hello';
                     }
                     console.log(blockScope); // Error: blockScope is not defined"
-/>
-
+      />
     </>
   );
 };
