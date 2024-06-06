@@ -20,12 +20,7 @@
   align-items: center;
   border-radius: 20px;
   transition: 700ms;
-  background: linear-gradient(
-    43deg,
-    rgb(65, 88, 208) 0%,
-    rgb(200, 80, 192) 46%,
-    rgb(255, 204, 112) 100%
-  );
+  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
 }
 
 .subtitle {
@@ -51,8 +46,8 @@
 }
 
 #prompt {
-  bottom: 8px;
-  left: 12px;
+  /* bottom: 8px;
+  left: 12px; */
   z-index: 20;
   font-size: 20px;
   font-weight: bold;
@@ -84,7 +79,7 @@
 
 .container:hover #card::before {
   transition: 200ms;
-  content: "";
+  content: '';
   opacity: 80%;
 }
 
@@ -97,8 +92,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
-  grid-template-areas:
-    "tr-1 tr-2 tr-3 tr-4 tr-5"
+  grid-template-areas: "tr-1 tr-2 tr-3 tr-4 tr-5"
     "tr-6 tr-7 tr-8 tr-9 tr-10"
     "tr-11 tr-12 tr-13 tr-14 tr-15"
     "tr-16 tr-17 tr-18 tr-19 tr-20"
@@ -106,13 +100,8 @@
 }
 
 #card::before {
-  content: "";
-  background: linear-gradient(
-    43deg,
-    rgb(65, 88, 208) 0%,
-    rgb(200, 80, 192) 46%,
-    rgb(255, 204, 112) 100%
-  );
+  content: '';
+  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
   filter: blur(2rem);
   opacity: 30%;
   width: 100%;
@@ -349,15 +338,15 @@
 
 .noselect {
   -webkit-touch-callout: none;
-  /* iOS Safari */
+   /* iOS Safari */
   -webkit-user-select: none;
-  /* Safari */
-  /* Konqueror HTML */
+   /* Safari */
+   /* Konqueror HTML */
   -moz-user-select: none;
-  /* Old versions of Firefox */
+   /* Old versions of Firefox */
   -ms-user-select: none;
-  /* Internet Explorer/Edge */
+   /* Internet Explorer/Edge */
   user-select: none;
-  /* Non-prefixed version, currently
+   /* Non-prefixed version, currently
 									supported by Chrome, Edge, Opera and Firefox */
 }
