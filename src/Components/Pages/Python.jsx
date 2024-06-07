@@ -2,7 +2,7 @@ import Topic from "../ui/Topic";
 
 export const Python = () => {
   return (
-    <>
+    <div className="lang-container">
       <Topic
         img_src="https://img.icons8.com/?size=100&id=Rc0Xn5AtE8kX&format=png&color=000000"
         title="Python"
@@ -125,6 +125,6 @@ export const Python = () => {
                         print(i)
                         i += 1"
       />
-    </>
+    </div>
   );
 };

@@ -2,7 +2,7 @@ import Topic from "../ui/Topic";
 
 export const Javascript = () => {
   return (
-    <>
+    <div className="lang-container">
       <Topic
         img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
         title="Javascript"
@@ -197,6 +197,6 @@ export const Javascript = () => {
                     }
                     console.log(blockScope); // Error: blockScope is not defined"
       />
-    </>
+    </div>
   );
 };

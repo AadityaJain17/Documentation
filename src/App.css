@@ -40,3 +40,7 @@
     transform: rotate(360deg);
   }
 }
+
+.lang-container {
+  @apply flex flex-col gap-5 items-center w-screen p-10;
+}

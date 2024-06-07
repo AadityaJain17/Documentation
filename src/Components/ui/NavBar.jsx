@@ -12,7 +12,7 @@ function NavBar() {
         <div className="nav-container">
           <NavLink exact to="/home" className="nav-logo">
             <img
-              src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+              src="https://img.icons8.com/?size=100&id=KE7Lna1lAPUQ&format=png&color=000000"
               alt="SITENAME"
               style={{ height: "80px", width: "50px", paddingTop: "30px" }}
             />

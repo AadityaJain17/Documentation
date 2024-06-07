@@ -16,7 +16,7 @@ export default function Topic({ img_src, title, desc, codesnippet }) {
   console.log(title);
   console.log(desc);
   return (
-    <Card className="max-w-[400px] ">
+    <Card className="w-full ">
       <CardHeader className="flex gap-3">
         <Image
           alt="language logo"
