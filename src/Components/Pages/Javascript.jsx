@@ -3,12 +3,7 @@ import Topic from "../ui/Topic";
 export const Javascript = () => {
   return (
     <div className="lang-container">
-      <Topic
-        img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
-        title="Javascript"
-        desc="bla bla bla bla bla bla"
-        codesnippet="let var const"
-      />
+      
       <Topic
         img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
         title="JavaScript Variables"
@@ -16,12 +11,7 @@ export const Javascript = () => {
         codesnippet="var age;
                     let name;"
       />
-      <Topic
-        img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
-        title="Datatypes"
-        desc="bla bla bla bla bla bla"
-        codesnippet="let var const"
-      />
+    
       <Topic
         img_src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000"
         title="JavaScript Functions"

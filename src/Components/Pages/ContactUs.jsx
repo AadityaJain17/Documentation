@@ -1,6 +1,6 @@
 export const FeedbackForm = () => {
   return (
-    <div className="bg-slate-800 border border-slate-700 grid grid-cols-6 gap-2 rounded-xl p-2 text-sm">
+    <div className="bg-slate-800 border border-slate-700 grid grid-cols-6 gap-2 rounded-xl p-2 text-sm ">
       <h1 className="text-center text-slate-600 text-xl font-bold col-span-6">
         Send Feedback
       </h1>
@@ -55,7 +55,7 @@ export const FeedbackForm = () => {
 
 export const ContactUs = () => {
   return (
-    <div className="flex min-h-screen relative items-center justify-center w-full">
+    <div className="flex min-h-screen relative items-center justify-center w-full flex gap-5 p-20">
       <div className="absolute top-8">Contact Me</div>
       <div className="rounded-xl overflow-hidden relative text-center p-4 group items-center flex flex-col max-w-sm hover:shadow-2xl transition-all duration-500 shadow-xl">
         <div className="text-gray-500 group-hover:scale-105 transition-all">
@@ -75,7 +75,7 @@ export const ContactUs = () => {
           </svg>
         </div>
         <div className="group-hover:pb-10 transition-all duration-500 delay-200">
-          <h1 className="font-semibold text-gray-700">Aaditya Jain </h1>
+          <h1 className="font-semibold text-[#E0E1DD]">Aaditya Jain </h1>
           <p className="text-gray-500 text-sm">Developer</p>
         </div>
         <div className="flex items-center transition-all duration-500 delay-200 group-hover:bottom-3 -bottom-full absolute gap-2 justify-evenly w-full">

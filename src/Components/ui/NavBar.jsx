@@ -8,11 +8,11 @@ function NavBar() {
   const handleClick = () => setClick(!click);
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar w-full fixed mb-5">
         <div className="nav-container">
           <NavLink exact to="/home" className="nav-logo">
             <img
-              src="https://img.icons8.com/?size=100&id=KE7Lna1lAPUQ&format=png&color=000000"
+              src="https://img.icons8.com/?size=100&id=KE7Lna1lAPUQ&format=png&color=e0e1dd"
               alt="SITENAME"
               style={{ height: "80px", width: "50px", paddingTop: "30px" }}
             />

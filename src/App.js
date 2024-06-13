@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Home } from "./Components/Pages/Home"
 import { Javascript } from "./Components/Pages/Javascript";
 import { Python } from "./Components/Pages/Python";
-import  {ContactUs,FeedbackForm}  from "./Components/Pages/ContactUs";
+import  {ContactUs}  from "./Components/Pages/ContactUs";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App min-h-screen">
       <>
         <Router>
           <NavBar />
