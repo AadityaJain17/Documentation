@@ -14,7 +14,7 @@ function App() {
           <NavBar />
           <div className="pages">
             <Routes>
-              <Route path='/' element={<Home />} />
+              <Route path='/home' element={<Home />} />
               <Route path="/javascript" element={<Javascript />} />
               <Route path="/python" element={<Python />} />
               <Route path="/contact" element={<ContactUs />} />
